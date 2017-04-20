@@ -1,0 +1,27 @@
+{
+  "name": "lab-james",
+  "version": "1.0.0",
+  "description": "401 lab 03",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha",
+    "lint": "eslint ./lib",
+    "start": "node index.js && npm run test"
+  },
+  "keywords": [
+    "mocha",
+    "fs",
+    "chai",
+    "node"
+  ],
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "eslint": "^3.19.0",
+    "mocha": "^3.2.0"
+  }
+}
